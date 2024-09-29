@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE menu [
+    <!ELEMENT menu (desayuno+)>
+    <!ELEMENT desayuno (nombre, descripcion, precio)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT descripcion (#PCDATA)>
+    <!ELEMENT precio (#PCDATA)>
+]>
+
+<menu>
+    <desayuno>
+        <nombre>Café con leche</nombre>
+        <descripcion>Café con una porción de leche</descripcion>
+        <precio>2.50 EUR</precio>
+    </desayuno>
+    <desayuno>
+        <nombre>Tostada con tomate</nombre>
+        <descripcion>Rebanada de pan con tomate fresco y aceite de oliva</descripcion>
+        <precio>1.80 EUR</precio>
+    </desayuno>
+</menu>

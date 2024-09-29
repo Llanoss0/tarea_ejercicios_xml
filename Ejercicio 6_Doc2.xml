@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<libros>
+    <libro id="quijote">
+        <titulo>El Quijote</titulo>
+        <autor nombre="Cervantes"/>
+        <descripcion>Es el mejor libro de Cervantes.</descripcion>
+    </libro>
+</libros>

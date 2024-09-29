@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<invoice>
+    <businessContactInformation>
+        <businessName>Nombre de la Empresa</businessName>
+        <address>
+            <streetAddress>Calle</streetAddress>
+            <city>Ciudad</city>
+            <state>Estado</state>
+            <zipCode>Codigo Postal</zipCode>
+        </address>
+        <phone>(000) 000-0000</phone>
+        <email>correo@empresa.com</email>
+        <website>www.empresa.com</website>
+    </businessContactInformation>
+    <billTo>
+        <clientName>Nombre del Cliente</clientName>
+        <address>
+            <streetAddress>Direccion del Cliente</streetAddress>
+            <city>Ciudad</city>
+            <state>Estado</state>
+            <zipCode>Codigo Postal</zipCode>
+        </address>
+    </billTo>
+    <shipTo>
+        <clientName>Nombre del Cliente</clientName>
+        <address>
+            <streetAddress>Direccion de Envío</streetAddress>
+            <city>Ciudad</city>
+            <state>Estado</state>
+            <zipCode>Codigo Postal</zipCode>
+        </address>
+    </shipTo>
+    <invoiceDetails>
+        <invoiceNumber>#12345</invoiceNumber>
+        <invoiceDate>mm/dd/yyyy</invoiceDate>
+        <terms>Net 30</terms>
+        <dueDate>mm/dd/yyyy</dueDate>
+    </invoiceDetails>
+    <items>
+        <item>
+            <productService>Producto o servicio 1</productService>
+            <description>Descripción del producto o servicio 1</description>
+            <quantityHours>0</quantityHours>
+            <rate>0</rate>
+            <amount>0.00</amount>
+        </item>
+        <item>
+            <productService>Producto o servicio 2</productService>
+            <description>Descripción del producto o servicio 2</description>
+            <quantityHours>0</quantityHours>
+            <rate>0</rate>
+            <amount>0.00</amount>
+        </item>
+    </items>
+    <summary>
+        <subtotal>0.00</subtotal>
+        <salesTax>0.00</salesTax>
+        <shipping>0.00</shipping>
+        <total>0.00</total>
+    </summary>
+    <customerMessage>
+        ¡Hola! Gracias por su compra. Por favor, devuelva esta factura con el pago. ¡Gracias!
+    </customerMessage>
+</invoice>
